@@ -10,7 +10,8 @@ body {
     border: 5px solid #62929eff;
     background-color:#546a7bff;
     border-radius: 30px;
-    font-family: arial;
+    font-family: Helvetica;
+    display: block;
 }
 
 .encabezadoPie {
@@ -35,12 +36,13 @@ footer
 main {
     border: 5px solid #62929eff;
     text-align: center;
-    width: 550px;
+    width: 700px;
     margin: 250px auto;
     padding: 10px;
     height: 350px;
     border-radius: 20px;
     background-color: #c6c5b9ff;
+    
 }
 
 article {
@@ -97,14 +99,14 @@ button {
 
 #intrucciones {
     height: 30px;
-    padding: 0px;
+    padding: 0px ;
     color:#fdfdffff; 
     font-size: 1.2em;
 }
 
 #parrafo {
     text-align: right;
-    padding: 1px;
+    padding: 2px 14px;
     font-size: 2.4em;
     color:#fdfdffff; 
 }
