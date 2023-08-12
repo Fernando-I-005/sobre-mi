@@ -1,0 +1,115 @@
+/*CSS HEX 
+--onyx: #393d3fff;casi negro
+--white: #fdfdffff; casi blanco
+--silver: #c6c5b9ff; gris
+--blue-munsell: #62929eff; azul claro
+--paynes-gray: #546a7bff;azul oscuro
+*/
+
+body {
+    border: 5px solid #62929eff;
+    background-color:#546a7bff;
+    border-radius: 30px;
+    font-family: arial;
+}
+
+.encabezadoPie {
+    text-align: center;
+    border: 5px solid #62929eff;
+    background-color:#546a7bff;
+    border-radius: 20px;
+    color: antiquewhite;
+}
+
+header {
+    border: 5px solid rgb(0, 255, 13);
+}
+
+footer 
+{
+    font-size: 1.2em;
+    }
+
+
+
+main {
+    border: 5px solid #62929eff;
+    text-align: center;
+    width: 550px;
+    margin: 250px auto;
+    padding: 10px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #c6c5b9ff;
+}
+
+article {
+    background-color: #393d3fff;
+    border-radius: 10px;
+    border: 5px solid #62929eff;
+    padding: 0px;
+    font-family: 'Handjet', cursive;
+}
+
+form {
+    height: 50px;
+    width: 500;
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+    }
+
+div {
+    margin: 0px;
+    
+}
+
+.botones {
+    height: 60px;
+   
+}
+
+button {
+    width: 245px;
+    height: 50px;
+    margin: 5px;
+    background-color: #8ac926;
+    border-radius: 10px;
+    font-size: 1.2em;
+    border: 3px solid #62929eff
+}
+
+.Entradas {
+    height: 45px;
+    width: 160px;
+    text-align: center;
+    background-color: #c6c5b9ff;
+    border-radius: 10px;
+    font-size: 0.9em;
+    padding: 0px;
+    color:#393d3fff;
+    border: 3px solid #62929eff
+}
+
+#menu {
+    height: 50px;
+    
+}
+
+#intrucciones {
+    height: 30px;
+    padding: 0px;
+    color:#fdfdffff; 
+    font-size: 1.2em;
+}
+
+#parrafo {
+    text-align: right;
+    padding: 1px;
+    font-size: 2.4em;
+    color:#fdfdffff; 
+}
+
+#reset 
+{
+    background-color: #ff595e;
+    }

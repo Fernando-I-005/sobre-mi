@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <header class="encabezadoPie">
+        <h1>Calculadora</h1>
+    </header>
+   
+    <main>
+
+        <article class="display">
+            <p id="intrucciones">Ingrese valores numéricos válidos, elija la operación y presione "Calcular"</p>
+            <p id="parrafo">...esperando para procesar</p>
+        </article>
+
+
+        <form id="formulario">
+            <input type="number" id="numero1" class="Entradas" placeholder="Ingrese un número">
+            <!--menu desplegable de operaciones-->
+            <select id="menu" name="Operaciones" class="Entradas">
+                <option selected disabled> Elija una operación</option>
+                <option value="suma"> Suma</option>
+                <option value="resta"> Resta</option>
+                <option value="division"> División</option>
+                <option value="multiplicacion"> Multiplicación</option>
+            </select>
+            <input type="number" id="numero2" class="Entradas" placeholder="Ingrese un número">
+        </form>
+
+        <br>
+        <div class="botones">
+            <button id="boton">Calcular</button>
+            <button id="reset">Reiniciar</button>
+        </div>
+    </main>
+
+    <footer class="encabezadoPie" id="pie">
+        <P> - Copyright 2023- Todos los derechos reservados -</P>
+    </footer>
+
+    <script src="calculadora.js"></script>
+
+</body>
+
+</html>
