@@ -10,7 +10,7 @@ body {
     border: 5px solid #62929eff;
     background-color:#546a7bff;
     border-radius: 30px;
-    font-family: Helvetica;
+    font-family: Helvetica, sans-serif;
     display: block;
 }
 
@@ -37,7 +37,7 @@ main {
     border: 5px solid #62929eff;
     text-align: center;
     width: 700px;
-    margin: 250px auto;
+    margin: 200px auto;
     padding: 10px;
     height: 350px;
     border-radius: 20px;
@@ -80,6 +80,10 @@ button {
     border: 3px solid #62929eff
 }
 
+button:hover {
+    background-color: rgb(218, 203, 121);
+  }
+
 .Entradas {
     height: 45px;
     width: 160px;
@@ -115,3 +119,7 @@ button {
 {
     background-color: #ff595e;
     }
+
+#reset:hover {
+        background-color: rgb(218, 203, 121);
+      }    
