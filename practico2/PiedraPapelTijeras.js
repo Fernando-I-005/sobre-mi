@@ -58,15 +58,23 @@ const sonidovictory = new Audio();
 
 // Carga los archivos de sonido en los objetos de Audio
 clickJugar.src = "recursos/clickok.mp3"; //clickJugar.play();
+clickJugar.type = "audio/mpeg"; // Tipo de archivo MP3
 //clickSeleccion.src = "click2.mp3"; // clickSeleccion.play();
+//clickSeleccion.type = "audio/mpeg";
 sonidoGana.src = "recursos/gana.mp3"; // sonidoGana.play();
+sonidoGana.type = "audio/mpeg";
 sonidoEmpate.src = "recursos/empate.mp3"; // sonidoEmpate.play();
+sonidoEmpate.type = "audio/mpeg";
 sonidoPierde.src = "recursos/pierde.mp3"; // sonidoPierde.play();
+sonidoPierde.type = "audio/mpeg";
 sonidoGanador.src = "recursos/aplausos.mp3"; // sonidoGanador.play();
+sonidoGanador.type = "audio/mpeg";
 sonidoPerdedor.src = "recursos/gameover.mp3"; // sonidoPerdedor.play();
+sonidoPerdedor.type = "audio/mpeg";
 sonidoFinish.src = "recursos/finish.mp3"; // sonidoFinish.play();
+sonidoFinish.type = "audio/mpeg";
 sonidovictory.src = "recursos/victory.mp3"; // sonidovictory.play();
-
+sonidovictory.type = "audio/mpeg";
 
 
 
