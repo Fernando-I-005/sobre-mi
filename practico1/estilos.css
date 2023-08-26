@@ -36,7 +36,7 @@ footer
 main {
     border: 5px solid #62929eff;
     text-align: center;
-    width: 700px;
+    max-width: 700px;
     margin: 200px auto;
     padding: 10px;
     height: 350px;
@@ -86,7 +86,7 @@ button:hover {
 
 .Entradas {
     height: 45px;
-    width: 160px;
+    max-width: 160px;
     text-align: center;
     background-color: #c6c5b9ff;
     border-radius: 10px;
