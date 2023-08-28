@@ -31,18 +31,7 @@ function mostrarNombreUsuario() {
     }
 }
 
-
-//sonidos
-//sonido click jugar
-/*const sonido1 = document.getElementById("bjugar");
-const audioElement1 = new Audio("recursos/clickok.mp3");
-
-const audioElement2 = new Audio();
-audioElement.src = "recursos/clickok.mp3";  // Carga el archivo de sonido en el objeto de Audio*/
-
-
-
-
+//sonidos// 
 // Crea objetos de Audio 
 const clickJugar = new Audio();
 const clickSeleccion = new Audio();
@@ -54,62 +43,21 @@ const sonidoPerdedor = new Audio();
 const sonidoFinish = new Audio();
 const sonidovictory = new Audio();
 
-
-
-// Carga los archivos de sonido en los objetos de Audio
-/*clickJugar.src = ""; //clickJugar.play();
-clickJugar.type = "audio/mpeg"; // Tipo de archivo MP3
-//clickSeleccion.src = "click2.mp3"; // clickSeleccion.play();
-//clickSeleccion.type = "audio/mpeg";
-sonidoGana.src = "https://drive.google.com/file/d/1bkHB6ytdImS6dkmpO2t12xueSWbF06XI/view?usp=drive_link"; // sonidoGana.play();
+// Carga los archivos de sonido en los objetos de Audio//
+sonidoGana.src = "./Recursos/gana.mp3"; // sonidoGana.play();
 sonidoGana.type = "audio/mpeg";
-sonidoEmpate.src = "empate.mp3"; // sonidoEmpate.play();
+sonidoEmpate.src = "./Recursos/empate.mp3"; // sonidoEmpate.play();
 sonidoEmpate.type = "audio/mpeg";
-sonidoPierde.src = "pierde.mp3"; // sonidoPierde.play();
+sonidoPierde.src = "./Recursos/pierde.mp3"; // sonidoPierde.play();
 sonidoPierde.type = "audio/mpeg";
-sonidoGanador.src = "https://drive.google.com/file/d/1z-N9T4mWIK03JHR6lXSl4YGnxVvDTkVR/view?usp=drive_link"; // sonidoGanador.play();
+sonidoGanador.src = "./Recursos/aplausos.mp3"; // sonidoGanador.play();
 sonidoGanador.type = "audio/mpeg";
-sonidoPerdedor.src = "https://drive.google.com/file/d/1phvx-c4JhGerTHpMQP2ooWcOUojwBZV-/view?usp=drive_link"; // sonidoPerdedor.play();
+sonidoPerdedor.src = "./Recursos/gameover.mp3"; // sonidoPerdedor.play();
 sonidoPerdedor.type = "audio/mpeg";
-sonidoFinish.src = "https://drive.google.com/file/d/1kY8KkORjQ5BEX3lf2c2XKpwLOm644nzg/view?usp=drive_link"; // sonidoFinish.play();
+sonidoFinish.src = "./Recursos/finish.mp3"; // sonidoFinish.play();
 sonidoFinish.type = "audio/mpeg";
-sonidovictory.src = "https://drive.google.com/file/d/16fMyFa6YsXF3Hb4utZDdYz8gwcC_yo1M/view?usp=drive_link"; // sonidovictory.play();
+sonidovictory.src = "./Recursos/victory.mp3"; // sonidovictory.play();
 sonidovictory.type = "audio/mpeg";
-*/
-
-
-
-sonidoGana.src = "gana.mp3"; // sonidoGana.play();
-sonidoGana.type = "audio/mpeg";
-sonidoEmpate.src = "empate.mp3"; // sonidoEmpate.play();
-sonidoEmpate.type = "audio/mpeg";
-sonidoPierde.src = "pierde.mp3"; // sonidoPierde.play();
-sonidoPierde.type = "audio/mpeg";
-sonidoGanador.src = "aplausos.mp3"; // sonidoGanador.play();
-sonidoGanador.type = "audio/mpeg";
-sonidoPerdedor.src = "gameover.mp3"; // sonidoPerdedor.play();
-sonidoPerdedor.type = "audio/mpeg";
-sonidoFinish.src = "finish.mp3"; // sonidoFinish.play();
-sonidoFinish.type = "audio/mpeg";
-sonidovictory.src = "victory.mp3"; // sonidovictory.play();
-sonidovictory.type = "audio/mpeg";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //funcion nº aleatorio //
 function numeroAleatorio() {
