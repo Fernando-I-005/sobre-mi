@@ -15,65 +15,86 @@
 </head>
 
 <body>
-    <div>
+
+    <header>
+        <p id="tituloHeader"> Piedra, Papel o Tijeras</p>
+    </header>
+
+
+
+    <section class="contenedorflex" id="contenedorUsuario">
         <input type="text" id="usuario" name="usuario" placeholder="Ingresa tu nombre ">
         <button id="enviarNombre" type="button" onclick="usuario=mostrarNombreUsuario()">Enviar</button>
-    </div>
+    </section>
 
-    <div id="marcador">
-        <div class="cajasmarcador">
+
+    <section id="marcador" class="contenedorflex">
+        <span class="cajasmarcador">
             <h4 id="nUsuario" class="nUsuario">Usuario</h4>
             <h3 id="marcador1" class="nUsuario">0</h3>
-        </div>
-        <div class="cajasmarcador1">
-            <h5 id="nRound" class="nUsuario">Round </h5>
-            <h6 id="marcador2" class="nUsuario">0</h6>
-        </div>
-        <div class="cajasmarcador">
+        </span>
+        <span class="cajasmarcador1">
+            <h4 id="nRound" class="nUsuario">Round </h4>
+            <h5 id="marcador2" class="nUsuario">0</h5>
+        </span>
+        <span class="cajasmarcador">
             <h4 id="nComputadora" class="nUsuario">Computadora</h4>
             <h3 id="marcador3" class="nUsuario">0</h3>
-        </div>
-    </div>
+        </span>
 
-    <div id="principal">
-        <div>
-            <h3 id="parrafo1"> Para iniciar el juego, primero complete su nombre</h3>
-        </div>
-
-        <div id="displayMensaje">
+        <section id="displayMensaje" class="contenedorflex">
             <h5 id="parrafo2">El juego es al mejor de 5 enfrentamientos. ¡Suerte! </h5>
-        </div>
+        </section>
+    </section>
+
+
+    <main id="principal" class="contenedorflex">
+
+        <section class="contenedorflex">
+            <h3 id="parrafo1"> Para iniciar el juego, primero complete su nombre</h3>
+        </section>
+
+
         <hr color="red">
 
-        <Div id="botones">
+        <section id="botones">
             <button class="botones" id="piedra" disabled value="piedra"><img src="Recursos/Piedra.png" width="70px"
                     alt=" icono piedra" onclick="obtenerJugadaUsuario('piedra')"></button>
             <button class="botones" disabled id="papel" value="papel"><img src="Recursos/papel.png" width="70px"
                     alt="icono papel" onclick="obtenerJugadaUsuario('papel')"></button>
             <button class="botones" id="tijera" disabled value="tijera"><img src="Recursos/Tijera.png" width="70px"
                     alt="icono tijeras" onclick="obtenerJugadaUsuario('tijera')"></button>
-        </Div>
+        </section>
 
-        <Div>
+        <div>
             <button id="bjugar" disabled onclick="ganador=determinarGanador(valorPc,valorUsuario)">Jugar</button>
-        </Div>
-
-        <div id="displayEleccion">
-            <div class="inline" id="cajaUsuario">
-                <div id="imagenEleccionJugador" class="cajaEleccion"> </div>
-                <p id="textoEleccionJugador"> Elección jugador</p>
-            </div>
-
-            <div class="inline" id="cajaPC">
-                <div id="imagenEleccionPC" class="cajaEleccion"> </div>
-                <p id="textoEleccionPC"> Elección Computadora</p>
-            </div>
         </div>
 
-        <div id="BotonReinicio">
+        <section class="contenedorflex" id="displayEleccion">
+
+            <section class="inline" id="cajaUsuario">
+                <p id="textoEleccionJugador"> Elección jugador</p>
+                <div id="imagenEleccionJugador" class="cajaEleccion"> </div>
+
+            </section>
+
+            <section id="cajaPC"> <!--class="inline"-->
+                <p id="textoEleccionPC"> Elección Computadora</p>
+                <div id="imagenEleccionPC" class="cajaEleccion"> </div>
+            </section>
+
+        </section>
+
+        <div id="BotonReinicio" class="contenedorflex">
             <button id="bReinicio" disabled> Reiniciar </button>
         </div>
-    </div>
+
+    </main>
+
+    <footer>
+        <h5 id="tituloFooter"> Copyright 2023 - Todos los derechos reservados - </h5>
+    </footer>
+
 
     <script src="PiedraPapelTijeras.js"></script>
 
